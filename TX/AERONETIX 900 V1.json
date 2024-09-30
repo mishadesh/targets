@@ -10,14 +10,11 @@
     "radio_sck": 32,
     "led_rgb": 4,
     "led_rgb_isgrb": true,
-    "power_min": 0,
-    "power_high": 2,
-    "power_max": 2,
-    "power_default": 2,
+    "power_min": 3,
+    "power_high": 6,
+    "power_max": 6,
+    "power_default": 3,
     "power_control": 0,
-    "power_values": [120,124,127],
-    "button": 0,
-    "debug_backpack_baud": 460800,
-    "debug_backpack_rx": 17,
-    "debug_backpack_tx": 16
+    "power_values": [120,124,127,255],
+    "button": 0
 }
