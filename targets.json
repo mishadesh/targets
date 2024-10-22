@@ -3,14 +3,26 @@
         "name": "AERONETIX",
         "tx_900": {
             "v1": {
-                "product_name": "AERONETIX 900MHz V1 TX",
-                "lua_name": "AERONETIX 900V1",
-                "layout_file": "AERONETIX 900 V1.json",
+                "product_name": "AERONETIX 433MHz V1 TX",
+                "lua_name": "AERONETIX 433 V1",
+                "layout_file": "AERONETIX 433 V1.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.0.0",
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_900_TX",
-                "prior_target_name": "AERONETIX_900_TX"
+                "prior_target_name": "AERONETIX_433_TX"
+            }
+        },
+        "tx_dual": {
+            "lr1121_v1": {
+                "product_name": "AERONETIX LR1121_V1 TX",
+                "lua_name": "AERONETIX LR1121 V1",
+                "layout_file": "AERONETIX LR1121 V1.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX",
+                "prior_target_name": "AERONETIX_LR1121_TX"
             }
         },
         "rx_900": {
@@ -23,7 +35,16 @@
                 "platform": "esp8285",
                 "firmware": "Unified_ESP8285_900_RX",
                 "prior_target_name": "AERONETIX_900_RX"
-            }
+            },
+            "lr1121": {
+                "product_name": "Generic ESP8285 LR1121 900Mhz RX",
+                "lua_name": "ELRS LR1121 900RX",
+                "layout_file": "Generic 900 8285 lr1121.json",
+                "upload_methods": ["uart", "wifi", "betaflight"],
+                "min_version": "3.0.0",
+                "platform": "esp8285",
+                "firmware": "Unified_ESP8285_LR1121_900_RX"
+              }
         }
     },
     "anyleaf": {
