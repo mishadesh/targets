@@ -11,12 +11,12 @@
     "radio_nss": 33,
     "radio_rst": 15,
 
-    "power_min": 1,
+    "power_min": 3,
     "power_high": 6,
     "power_max": 6,
     "power_default": 3,
     "power_control": 0,
-    "power_values": [3,6,9,12,15,20],
+    "power_values": [2,5,8,11],
     "power_values_dual": [-17,-14,-9,-6,1,1],
 
     "led_rgb": 4,
