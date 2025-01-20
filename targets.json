@@ -22,7 +22,7 @@
                 "firmware": "Unified_ESP32_900_TX",
                 "prior_target_name": "AERONETIX_433_TX"
             },
-            "v3": {
+            "v2_1": {
                 "product_name": "AERONETIX 490-560MHz V1 TX",
                 "lua_name": "AERONETIX 490_550 V1",
                 "layout_file": "AERONETIX 490_550 V1.json",
@@ -56,6 +56,24 @@
                 "product_name": "AERONETIX LR1121 450-700 V2 TX",
                 "lua_name": "LR1121 450-700 V2 TX",
                 "layout_file": "Aeronetix LR1121 450-700 V2.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            },
+            "lr1121_5W_150_450_v1": {
+                "product_name": "AERONETIX LR1121 5W 150-450 V1 TX",
+                "lua_name": "LR1121 5W 150-450 V1 TX",
+                "layout_file": "Aeronetix LR1121 5W 150-450 V1.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            },
+            "lr1121_5W_450_750_v1": {
+                "product_name": "AERONETIX LR1121 5W 450-750 V1 TX",
+                "lua_name": "LR1121 5W 450-750 V1 TX",
+                "layout_file": "Aeronetix LR1121 5W 450-750 V1.json",
                 "upload_methods": ["uart", "wifi"],
                 "min_version": "3.4.0",
                 "platform": "esp32",
