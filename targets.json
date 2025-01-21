@@ -61,7 +61,7 @@
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_LR1121_TX"
             },
-            "lr1121_5W_150_450_v1": {
+            "lr1121_5w_150_450_v1": {
                 "product_name": "AERONETIX LR1121 5W 150-450 V1 TX",
                 "lua_name": "LR1121 5W 150-450 V1 TX",
                 "layout_file": "Aeronetix LR1121 5W 150-450 V1.json",
@@ -70,7 +70,7 @@
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_LR1121_TX"
             },
-            "lr1121_5W_450_750_v1": {
+            "lr1121_5w_450_750_v1": {
                 "product_name": "AERONETIX LR1121 5W 450-750 V1 TX",
                 "lua_name": "LR1121 5W 450-750 V1 TX",
                 "layout_file": "Aeronetix LR1121 5W 450-750 V1.json",
