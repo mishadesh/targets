@@ -79,6 +79,15 @@
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_LR1121_TX"
             },
+            "lr1121_5w_v1": {
+                "product_name": "AERONETIX LR1121 5W V1 TX",
+                "lua_name": "LR1121 5W V1 TX",
+                "layout_file": "Aeronetix LR1121 5W V1.json",
+                "upload_methods": ["uart", "wifi"],
+                "min_version": "3.4.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_LR1121_TX"
+            },
             "lr1121_1w_v3": {
                 "product_name": "AERONETIX LR1121 1W V3 TX",
                 "lua_name": "LR1121 1W V3 TX",
