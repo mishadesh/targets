@@ -1456,6 +1456,17 @@
                 "platform": "esp32",
                 "firmware": "Unified_ESP32_900_TX",
                 "prior_target_name": "HappyModel_TX_ES900TX"
+            },
+            "es900_max": {
+                "product_name": "HappyModel ES900_MAX TX",
+                "lua_name": "HM ES900_MAX_TX",
+                "layout_file": "HappyModel ES900 Max.json",
+                "upload_methods": ["uart", "wifi"],
+                "features": ["fan"],
+                "min_version": "3.0.0",
+                "platform": "esp32",
+                "firmware": "Unified_ESP32_900_TX",
+                "prior_target_name": "HappyModel_TX_ES900TX"
             }
         },
         "rx_900": {
